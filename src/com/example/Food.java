@@ -1,11 +1,15 @@
 package com.example;
 
-public class Food {
+public class Food extends Thing{
     private String name;
     private String description;
     private String consequence;
     private int cost;
     private int quantity;
+
+    public void setQuantity(int newQuantity) {
+        quantity = newQuantity;
+    }
 
     public String getName() {
         return name;
@@ -25,5 +29,10 @@ public class Food {
 
     public int getQuantity() {
         return quantity;
+    }
+
+    public String toString() {
+        return "Name: " + getName() + "\nDescription: " + getDescription() + "\nCost: " + getCost() + " yen \nQuantity: "
+                + getQuantity();
     }
 }

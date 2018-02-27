@@ -1,13 +1,12 @@
 package com.example;
 
-public class Pets extends Thing{
+abstract public class Thing {
     private String name;
-
     public String getName() {
         return name;
     }
 
     public String toString() {
-        return super.toString();
+        return String.format("Name: " + getName());
     }
 }
