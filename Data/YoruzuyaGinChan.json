@@ -1,0 +1,93 @@
+{
+  "location": [
+    {
+      "name": "Yoruzuya Gin-Chan",
+      "description": "Welcome to Yoruzuya Gin-Chan.  If you do not have any money, get out.",
+      "items": [
+        {
+          "food": [
+            {
+              "name": "Sukonbu",
+              "description": "Pickled seaweed from Kagura's stash (makes your breath smell bad)",
+              "consequence": "Kagura drop kicked you.  You died."
+            },
+            {
+              "name": "Chocolate Parfait",
+              "description": "Gin-chan's weekly prized treat",
+              "consequence": "Gin-chan's doctors said he could only have one a week because of his sugar levels.  He drop kicked you.  You died."
+            },
+            {
+              "name": "Tamago Yaki",
+              "description": "Shimura Tae's signature dish (dark matter)",
+              "consequence": "You died of food poisoning."
+            },
+            {
+              "name": "Tea and biscuits",
+              "description": "Megane-kun is serving, so it's most likely safe",
+              "consequence": "Congrats, you are still alive."
+            },
+            {
+              "name": "Dom Perignon",
+              "description": "Do you want to go bankrupt?",
+              "consequence": "Your wallet has died, but you are alive."
+            }
+          ],
+          "weapon": [
+            {
+              "name": "Kagura's umbrella",
+              "description": "A Yato clan umbrella, and is OP"
+            },
+            {
+              "name": "Lake Touya",
+              "description": "Gin-chan's bokuto which miraculously hasn't broken yet"
+            }
+          ],
+          "pets": [
+            {
+              "name": "Sadaharu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shinsengumi HQ",
+      "description": "Welcome to Shinsengumi HQ.  Hopefully you have already read the Kyokucho Hatto; if you haven't, commit seppuku.  Also, we don't work for free.",
+      "item": [
+        {
+          "food": [
+            {
+              "name": "Hijikata Special",
+              "description": "Udon smothered in mayonaise (dog food)",
+              "consequence": "Quite honestly, I'm surprised you're still alive after eating that dog food.  Needless to say, Hijikata is proud of you"
+            },
+            {
+              "name": "Anpan",
+              "description": "Yamazaki's favorite stake out snack",
+              "consequence": "God of Anpan has given you good luck on your stake outs"
+            },
+            {
+              "name": "Shinsengumi Sausage",
+              "description": "To be honest, a normal sausage with a glorified brand",
+              "consequence": "Congrats, you are still alive"
+            }
+          ],
+          "weapon": [
+            {
+              "name": "Neo Armstrong Cyclone Jet Armstrong Canon",
+              "description": "A gigantic canon fused with a JustAway"
+            },
+            {
+              "name": "Kiku-ichimonji RX-7",
+              "description": "Okita's sword with a built-in MP3 player"
+            },
+            {
+              "name": "Shinsengumi Bazooka",
+              "description": "A bazooka"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
