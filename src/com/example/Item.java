@@ -34,6 +34,6 @@ public class Item {
             tostring.append("\n");
             tostring.append(p);
         }
-
+        return tostring.toString();
     }
 }
