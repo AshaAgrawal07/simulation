@@ -1,6 +1,9 @@
 package com.example;
 
-public class Place {
+/**
+ * Place is a type of "Location"
+ */
+public class Place extends Location {
 
     private Item[] items;
     private String description;
@@ -16,5 +19,15 @@ public class Place {
 
     public String getName() {
         return name;
+    }
+
+    @Override
+    public void nextEpoch() {
+        super.nextEpoch();
+    }
+
+    @Override
+    public Place moveTo(String place) {
+        return null;
     }
 }

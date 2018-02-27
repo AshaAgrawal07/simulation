@@ -21,7 +21,12 @@ abstract public class Location {
         Simulator.setTime(Simulator.getStartingTime() + 1);
     }
 
-    public abstract Location moveTo(String place);
+    public Place moveTo(String place) {
+        if (getName().equalsIgnoreCase(place)) {
+            System.out.println("You are already at " + place);
+            return null;
+        } else if ()
+    }
 
     public String toString() {
         return String.format("Name: " + getName(), "\nDescription: " + getDescription() + "\nItems: " + getItems());

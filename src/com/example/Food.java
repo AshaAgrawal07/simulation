@@ -6,7 +6,7 @@ package com.example;
  *      for example, if you take any type of food at the Yoruzuya, the probability that you will either go bankrupt or
  *      die is very high if you choose to eat it
  *      at the Shinsengumi, nothing really happens
- * Things that can be done to food:  buy, sell, consume
+ * Things that can be done to food:  buy, consume
  */
 public class Food extends Thing{
     private String name;
