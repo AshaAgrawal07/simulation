@@ -17,7 +17,10 @@ abstract public class Location {
         return items;
     }
 
-    public abstract void nextEpoch();
+    public void nextEpoch() {
+        Simulator.setTime(Simulator.getStartingTime() + 1);
+    }
+
     public abstract Location moveTo(String place);
 
     public String toString() {

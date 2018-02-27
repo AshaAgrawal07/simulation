@@ -112,5 +112,6 @@
     }
   ],
   "balance": 30000,
-  "startingLocation": "Yoruzuya Gin-Chan"
+  "startingLocation": "Yoruzuya Gin-Chan",
+  "startingTime": 0
 }

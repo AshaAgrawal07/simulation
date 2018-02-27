@@ -1,5 +1,8 @@
 package com.example;
 
+/**
+ * Item class basically contains arrays of the subclasses that extends "Thing"
+ */
 public class Item {
     private Food[] food;
     private Weapon[] weapon;
