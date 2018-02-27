@@ -9,37 +9,44 @@
             {
               "name": "Sukonbu",
               "description": "Pickled seaweed from Kagura's stash (makes your breath smell bad)",
+              "cost": 10,
               "consequence": "Kagura drop kicked you.  You died."
             },
             {
               "name": "Chocolate Parfait",
               "description": "Gin-chan's weekly prized treat",
+              "cost": 200,
               "consequence": "Gin-chan's doctors said he could only have one a week because of his sugar levels.  He drop kicked you.  You died."
             },
             {
               "name": "Tamago Yaki",
               "description": "Shimura Tae's signature dish (dark matter)",
-              "consequence": "You died of food poisoning."
+              "cost": -500,
+              "consequence": "You nearly died of food poisoning.  Congrats on your slow recovery."
             },
             {
               "name": "Tea and biscuits",
               "description": "Megane-kun is serving, so it's most likely safe",
+              "cost": 200,
               "consequence": "Congrats, you are still alive."
             },
             {
               "name": "Dom Perignon",
               "description": "Do you want to go bankrupt?",
+              "cost": 20000,
               "consequence": "Your wallet has died, but you are alive."
             }
           ],
           "weapon": [
             {
               "name": "Kagura's umbrella",
-              "description": "A Yato clan umbrella, and is OP"
+              "description": "One of the strongest Yato Clan member's OP weapon",
+              "cost": 4000
             },
             {
               "name": "Lake Touya",
-              "description": "Gin-chan's bokuto which miraculously hasn't broken yet"
+              "description": "Gin-chan's bokuto which miraculously hasn't broken yet",
+              "cost": 4000
             }
           ],
           "pets": [
@@ -59,35 +66,43 @@
             {
               "name": "Hijikata Special",
               "description": "Udon smothered in mayonaise (dog food)",
+              "cost": 600,
               "consequence": "Quite honestly, I'm surprised you're still alive after eating that dog food.  Needless to say, Hijikata is proud of you"
             },
             {
               "name": "Anpan",
               "description": "Yamazaki's favorite stake out snack",
+              "cost": 150,
               "consequence": "God of Anpan has given you good luck on your stake outs"
             },
             {
               "name": "Shinsengumi Sausage",
               "description": "To be honest, a normal sausage with a glorified brand",
+              "cost": 200,
               "consequence": "Congrats, you are still alive"
             }
           ],
           "weapon": [
             {
               "name": "Neo Armstrong Cyclone Jet Armstrong Canon",
-              "description": "A gigantic canon fused with a JustAway"
+              "description": "A gigantic canon fused with a JustAway",
+              "cost": 7000
             },
             {
               "name": "Kiku-ichimonji RX-7",
-              "description": "Okita's sword with a built-in MP3 player"
+              "description": "Okita's sword with a built-in MP3 player",
+              "cost": 4000
             },
             {
               "name": "Shinsengumi Bazooka",
-              "description": "A bazooka"
+              "description": "A bazooka",
+              "cost": 2000
             }
           ]
         }
       ]
     }
-  ]
+  ],
+  "balance": 30000,
+  "startingLocation": "Yoruzuya Gin-Chan"
 }
