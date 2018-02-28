@@ -19,6 +19,7 @@ public class Simulation {
 
         while(goOn) {
             currentRoom.toString();
+            System.out.println("Current balance (in yen): " + gintama.getBalance());
             String move = scan.nextLine();
 
             if (gintama.getStartingTime()%10 == 0 && currentRoom.getName().contains("Yoruzuya")) {
@@ -38,7 +39,42 @@ public class Simulation {
                 currentRoom.moveTo(move);
             } else if (move.indexOf("quit") == 0 || move.indexOf("exit") == 0) {
                 break;
-            } else if (move.indexOf())
+            } else if (move.indexOf("time") == 0) {
+                gintama.getStartingTime();
+            } else if (move.indexOf("balance") == 0) {
+                gintama.getBalance();
+            } else if (otose && !move.contains("hide")) {
+                System.out.println("You need to pay rent and thus are broke.");
+                break;
+            } else if (move.indexOf("nap") == 0 && currentRoom.getName().contains("Yoruzuya")) {
+                Yoruzuya.nap();
+            } else if (move.indexOf("play") == 0 && currentRoom.getName().contains("Yoruzuya")) {
+                Yoruzuya.play();
+            } else if (move.indexOf("clean") == 0 && currentRoom.getName().contains("Yoruzuya")) {
+                Yoruzuya.clean();
+            } else if (move.indexOf("laze") == 0 && currentRoom.getName().contains("Yoruzuya")) {
+                Yoruzuya.laze();
+            } else if (move.indexOf("hide") == 0 && currentRoom.getName().contains("Yoruzuya")) {
+                Yoruzuya.hide();
+            } else if (move.indexOf("stake out") == 0 && currentRoom.getName().contains("HQ")) {
+                Shinsengumi.stakeOut();
+            } else if (move.indexOf("read") == 0 && currentRoom.getName().contains("HQ")) {
+                Shinsengumi.read(move);
+            } else if (move.indexOf("fire") == 0 && currentRoom.getName().contains("HQ")) {
+                Shinsengumi.fire(move);
+            } else if (move.indexOf("train") == 0 && currentRoom.getName().contains("HQ")) {
+                Shinsengumi.train();
+            } else if (move.indexOf("arrest") == 0 && currentRoom.getName().contains("HQ")) {
+                Shinsengumi.arrest(move);
+            } else {
+                System.out.println("INVALID MOVE");
+            }
+
+            if(gintama.getBalance() <= 0) {
+                System.out.println("Congrats on becoming a MADAO.  Hasegawa-senpai will surely appreciate your company");
+                break;
+            }
+            currentRoom.nextEpoch();
         }
 
     }

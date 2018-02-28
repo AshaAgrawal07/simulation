@@ -44,7 +44,7 @@ public class Shinsengumi extends Location{
      * @param input will contain "arrest" and "Zura"
      * @return that Zura has been successfully arrested and that player has earned money
      */
-    public String arrest(String input) {
+    public static String arrest(String input) {
             Person.setBalance(Person.getBalance() + 1000);
             return "Congrats on helping arrest the head of the Joui Patriots.  You have been awarded 1000 yen";
     }
@@ -53,7 +53,7 @@ public class Shinsengumi extends Location{
      *
      * @return String that says that you wasted 1 hr of your time
      */
-    public String stakeOut() {
+    public static String stakeOut() {
         return "Congrats on successfully wasting 1 hour of your time";
     }
 
@@ -62,7 +62,7 @@ public class Shinsengumi extends Location{
      * @param input check if they are trying to read the Kyokucho Hatto rather than something else
      * @return a string based on what you want to read
      */
-    public String read(String input) {
+    public static String read(String input) {
         if (input.contains("Kyokucho Hatto")) {
             return "Congrats on finally realizing the true and innate beauty of the Kyokucho Hatto";
         }
@@ -73,7 +73,7 @@ public class Shinsengumi extends Location{
      * checks if you can train by checking if you have any weapon at all
      * @return String on training status
      */
-    public String train() {
+    public static String train() {
         for (int i = 0; i < Person.getCarryItems().size(); i++) {
             if (Person.getCarryItems().get(i).getClass() == Weapon.class) {
                 return "Congrats on completing 1 hour of training";
@@ -87,7 +87,7 @@ public class Shinsengumi extends Location{
      * @param input will contain "fire" and a fire-able weapon
      * @return wether or not you could actually fire the weapon
      */
-    public String fire(String input) {
+    public static String fire(String input) {
         for (int i = 0; i < Person.getCarryItems().size(); i++) {
             if (Person.getCarryItems().get(i).getName().contains("bazooka") ||
                     Person.getCarryItems().get(i).getName().contains("canon") ||

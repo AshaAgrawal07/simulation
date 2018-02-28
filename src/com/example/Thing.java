@@ -23,12 +23,12 @@ public class Thing {
      */
     public ArrayList<Thing> buy (String input, Location place) {
         String purchase = input.substring(4);
-        Thing item;
         for (int i = 0; i < place.getItems().size(); i++) {
-            if(place.getItems().get(i).getFood().equals(purchase) ||
-                    place.getItems().get(i).getWeapon().equals(purchase)) {
+            if(place.getItems().get(i).getFood().contains(purchase)) {
+                int itemIndex = place.getItems().get(i).getFood().indexOf(purchase);
                 carryItems.add(place.getItems().get(i));
-                place.getItems().remove(place.getItems().get(i));
+                Person.setBalance(Person.getBalance() - place.getItems().get(i).getFood().get(itemIndex).getCost());
+                place.getItems().remove(place.getItems().get(i).getFood().get(itemIndex));
             }
         }
         System.out.println("You are now carrying: ");

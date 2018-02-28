@@ -10,13 +10,13 @@
               "name": "Sukonbu",
               "description": "Pickled seaweed from Kagura's stash (makes your breath smell bad)",
               "cost": 10,
-              "consequence": "Kagura drop kicked you."
+              "consequence": "Kagura drop kicked you. You somehow managed to stay alive.  Congrats."
             },
             {
               "name": "Chocolate Parfait",
               "description": "Gin-chan's weekly prized treat",
               "cost": 200,
-              "consequence": "Gin-chan's doctors said he could only have one a week because of his sugar levels.  He drop kicked you.  You died."
+              "consequence": "Gin-chan's doctors said he could only have one a week because of his sugar levels.  He drop kicked you.  You are miraculously alive.  Congrats."
             },
             {
               "name": "Tamago Yaki",
@@ -28,7 +28,7 @@
               "name": "Tea and biscuits",
               "description": "Megane-kun is serving, so it's most likely safe",
               "cost": 200,
-              "consequence": "Congrats, you are still alive."
+              "consequence": "Congrats, you are still alive.  You feel refreshed after having tea and biscuits."
             },
             {
               "name": "Dom Perignon",

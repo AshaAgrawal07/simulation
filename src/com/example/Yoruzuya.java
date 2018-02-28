@@ -44,7 +44,7 @@ public class Yoruzuya extends Location {
      * earn money for playing with Kagura and Sadaharu
      * @return positive message
      */
-    public String play() {
+    public static String play() {
         Person.setBalance(Person.getBalance() + 100);
         return "Kagura and Sadaharu are happy that you played with them.  You have earned 100 yen";
     }
@@ -53,7 +53,7 @@ public class Yoruzuya extends Location {
      *
      * @return String that praises naps
      */
-    public String nap() {
+    public static String nap() {
         return "Congrats on napping for an hour.  Naps are important.  Naps are fun.";
     }
 
@@ -61,7 +61,7 @@ public class Yoruzuya extends Location {
      * earn money for cleaning the shop with Shinpachi
      * @return positive message
      */
-    public String clean() {
+    public static String clean() {
         Person.setBalance(Person.getBalance() + 200);
         return "Shinpachi is very happy that you helped him clean Yoruzuya Gin-Chan.  You have earned 200 yen";
     }
@@ -71,7 +71,7 @@ public class Yoruzuya extends Location {
      *
      * @return a sarcastic message
      */
-    public String laze() {
+    public static String laze() {
         return "Congrats on successfully lazing around and wasting an entire hour";
     }
 
@@ -79,7 +79,7 @@ public class Yoruzuya extends Location {
      *
      * @return message on not paying rent
      */
-    public String hide() {
+    public static String hide() {
         return "Congrats on hiding from Otose-tanukibaba and not paying rent for the 4th month in a row!";
     }
 }

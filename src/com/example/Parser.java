@@ -14,7 +14,7 @@ public class Parser {
 
         Gson gson = new GsonBuilder().registerTypeAdapterFactory(locationParser).create();
         String str = Data.getFileContentsAsString(file);
-        Simulation gintama = gson.fromJson(str, Simulation.class);
+        Person gintama = gson.fromJson(str, Person.class);
         return gintama;
     }
 }
