@@ -4,9 +4,9 @@ import com.google.gson.*;
 import com.google.gson.GsonBuilder;
 
 public class Parser {
-    public static Simulator gintama;
+    public static Person gintama;
 
-    public static Simulation parse(final String file) {
+    public static Person parse(final String file) {
 
         RuntimeTypeAdapterFactory<Location> locationParser = RuntimeTypeAdapterFactory.of(Location.class, "type");
         locationParser.registerSubtype(Yoruzuya.class, "Yoruzuya Gin-Chan");

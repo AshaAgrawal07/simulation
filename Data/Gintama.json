@@ -10,35 +10,30 @@
               "name": "Sukonbu",
               "description": "Pickled seaweed from Kagura's stash (makes your breath smell bad)",
               "cost": 10,
-              "quantity": 100,
               "consequence": "Kagura drop kicked you."
             },
             {
               "name": "Chocolate Parfait",
               "description": "Gin-chan's weekly prized treat",
               "cost": 200,
-              "quantity": 1,
               "consequence": "Gin-chan's doctors said he could only have one a week because of his sugar levels.  He drop kicked you.  You died."
             },
             {
               "name": "Tamago Yaki",
               "description": "Shimura Tae's signature dish (dark matter)",
               "cost": -500,
-              "quantity": 10,
               "consequence": "You nearly died of food poisoning.  Congrats on your slow recovery."
             },
             {
               "name": "Tea and biscuits",
               "description": "Megane-kun is serving, so it's most likely safe",
               "cost": 200,
-              "quantity": 2,
               "consequence": "Congrats, you are still alive."
             },
             {
               "name": "Dom Perignon",
               "description": "Do you want to go bankrupt?",
               "cost": 20000,
-              "quantity": 100,
               "consequence": "Your wallet isn't crying, you are."
             }
           ],
@@ -77,21 +72,18 @@
               "name": "Hijikata Special",
               "description": "Udon smothered in mayonaise (dog food)",
               "cost": 600,
-              "quantity": 2,
               "consequence": "Quite honestly, I'm surprised you're still alive after eating that dog food.  Needless to say, Hijikata is proud of you"
             },
             {
               "name": "Anpan",
               "description": "Yamazaki's favorite stake out snack",
               "cost": 150,
-              "quantity": 100,
               "consequence": "God of Anpan has given you good luck on your stake outs"
             },
             {
               "name": "Shinsengumi Sausage",
               "description": "To be honest, a normal sausage with a glorified brand",
               "cost": 200,
-              "quantity": 100,
               "consequence": "Congrats, you are still alive"
             }
           ],

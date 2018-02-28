@@ -60,6 +60,6 @@ abstract public class Location {
      * @return the toString for the specific location
      */
     public String toString() {
-        return String.format("Name: " + getName(), "\nDescription: " + getDescription() + "\nItems: " + getItems());
+        return String.format("Name: " + getName(), "\nDescription: " + getDescription() + "\nItems: " + getItems().toString());
     }
 }

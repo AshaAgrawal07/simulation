@@ -13,11 +13,6 @@ public class Food extends Thing{
     private String description;
     private String consequence;
     private int cost;
-    private int quantity;
-
-    public void setQuantity(int newQuantity) {
-        quantity = newQuantity;
-    }
 
     public String getName() {
         return name;
@@ -35,12 +30,7 @@ public class Food extends Thing{
         return cost;
     }
 
-    public int getQuantity() {
-        return quantity;
-    }
-
     public String toString() {
-        return "Name: " + getName() + "\nDescription: " + getDescription() + "\nCost: " + getCost() + " yen \nQuantity: "
-                + getQuantity();
+        return "Name: " + getName() + "\nDescription: " + getDescription() + "\nCost: " + getCost() + " yen";
     }
 }
