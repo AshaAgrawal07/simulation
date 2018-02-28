@@ -56,7 +56,12 @@
           ],
           "pets": [
             {
-              "name": "Sadaharu"
+              "name": "Sadaharu",
+              "description": "A demon dog"
+            },
+            {
+              "name": "Zura",
+              "description": "ZURA JANAI, KATSURA DA"
             }
           ]
         }

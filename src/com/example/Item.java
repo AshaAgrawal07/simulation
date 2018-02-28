@@ -1,22 +1,24 @@
 package com.example;
 
+import java.util.ArrayList;
+
 /**
  * Item class basically contains arrays of the subclasses that extends "Thing"
  */
-public class Item {
-    private Food[] food;
-    private Weapon[] weapon;
-    private Pets[] pets;
+public class Item extends Thing{
+    private ArrayList<Food> food;
+    private ArrayList<Weapon> weapon;
+    private ArrayList<Pets> pets;
 
-    public Food[] getFood() {
+    public ArrayList<Food> getFood() {
         return food;
     }
 
-    public Weapon[] getWeapon() {
+    public ArrayList<Weapon> getWeapon() {
         return weapon;
     }
 
-    public Pets[] getPets() {
+    public ArrayList<Pets> getPets() {
         return pets;
     }
 

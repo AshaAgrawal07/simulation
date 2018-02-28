@@ -3,7 +3,6 @@ package com.example;
 /**
  * Weapon is a type of "Thing"
  * It has a name, description, and a cost if you choose to buy it.
- * Things that can be done to weapons:  swing, throw, buy, sell
  */
 public class Weapon extends Thing{
     private String name;
