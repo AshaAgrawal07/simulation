@@ -40,9 +40,9 @@ public class Simulation {
             } else if (move.indexOf("quit") == 0 || move.indexOf("exit") == 0) {
                 break;
             } else if (move.indexOf("time") == 0) {
-                gintama.getStartingTime();
+                System.out.println(gintama.getStartingTime() + "hours has passed");
             } else if (move.indexOf("balance") == 0) {
-                gintama.getBalance();
+                System.out.println(gintama.getBalance() + " yen");
             } else if (otose && !move.contains("hide")) {
                 System.out.println("You need to pay rent and thus are broke.");
                 break;

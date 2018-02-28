@@ -7,10 +7,13 @@ package com.example;
  */
 public class Pets extends Thing{
     private String name;
+    private String description;
 
     public String getName() {
         return name;
     }
+
+    public String getDescription() { return description; }
 
     public String toString() {
         return super.toString();
